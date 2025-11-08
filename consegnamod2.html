@@ -5,24 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs Search</title>
+    <link rel="stylesheet" href="consegnamod2.css">
 </head>
 
 <body>
-    <div>
-        <h1>Jobs Search</h1>
+    <div class="container">
+        <div class="titolone">
+            <h1>Jobs Search</h1>
+        </div>
+        <div class="label">
+            <label for="titleInput">Titolo lavorativo</label>
+            <input class="input" id="titleInput" type="text" placeholder="Tipologia lavoro">
+        </div>
+
+        <div class="label">
+            <label for="locationInput">Luogo</label>
+            <input class="input" id="locationInput" type="text" placeholder="Localita">
+        </div>
+
+        <div class="button">
+            <button id="searchButton" type="button">Cerca</button>
+            <ul id="resultList"></ul>
+
+        </div>
+
+
+        <script src="consegnamod2.js"></script>
+
     </div>
 
-    <label for="titleInput">Titolo lavorativo</label>
-    <input id="titleInput" type="text" placeholder="Tipologia lavoro">
-
-    <label for="locationInput">Luogo</label>
-    <input id="locationInput" type="text" placeholder="Localita">
-
-    <button id="searchButton" type="button">Cerca</button>
-    <ul id="resultList"></ul>
-
-
-    <script src="consegnamod2.js"></script>
 </body>
 
 </html>
